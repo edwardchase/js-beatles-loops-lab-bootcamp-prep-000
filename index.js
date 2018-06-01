@@ -23,10 +23,5 @@ function iLoveTheBeatles(number) {
   do {
     array[count] = 'I love the Beatles!';
     count = count+1;
-} while (number < 15) {
-   array[count] = 'I love the Beatles!';
-    count = count + 1;
-    number = number + 1;
-    return array;
-}
+} while (number < 15);
 }
