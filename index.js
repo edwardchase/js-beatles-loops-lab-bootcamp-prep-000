@@ -16,16 +16,4 @@ function johnLennonFacts(facts) {
   return facts;
 }
 
-function iLoveTheBeatles(number) {
-  var count = 0;
-  var array = [];
-  do {
-    array[count] = 'I love the Beatles!';
-    count = count+1;
-} while (number < 15) {
-   array[count] = 'I love the Beatles!';
-    count = count + 1;
-    number = number + 1;
-    return array;
-}
-}
+
